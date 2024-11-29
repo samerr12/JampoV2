@@ -1,4 +1,12 @@
 <resources>
-    <string name="app_name">JampoV2</string>
+    <string name="app_name" translatable="false">JampoV2</string>
     <string name="welcome_jampo">welcome to JAMPO</string>
+    <string name="Login_name_email">Username/Email</string>
+    <string name="Login_name">Username</string>
+    <string name="Login_email" translatable="false">Email</string>
+    <string name="login_password">Password</string>
+    <string name="Login_login">Login</string>
+    <string name="login_remember">Remember Me</string>
+    <string name="login_create_account">Dont have an accont? Create Now!</string>
+    <string name="login_forgetPassword">Did you forget your password?</string>
 </resources>

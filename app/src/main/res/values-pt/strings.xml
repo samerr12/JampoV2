@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_jampo">Bem-Vindo ao JAMPO</string>
+    <string name="Login_name_email">Nome/Email</string>
+    <string name="Login_name">Nome</string>
+    <string name="login_password">Palavra passe</string>
+    <string name="Login_login">Iniciar Sessão</string>
+    <string name="login_remember">Lembre-se de mim</string>
+    <string name="login_create_account">Não tens conta? Registe-se agora!</string>
+    <string name="login_forgetPassword">Esqueceu-se da palavra passe?</string>
+</resources>

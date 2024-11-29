@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
     fun doLogin(view: View) {
 
         val queue = Volley.newRequestQueue(this)
-        val url = "https://esan-tesp-ds-paw.web.ua.pt/tesp-ds-g36/api/index.php"
+        val url = "https://esan-tesp-ds-paw.web.ua.pt/tesp-ds-g36/api/user/login.php"
 
         // POST request + get string response from the provided URL.
         val postRequest = object : StringRequest(Method.POST, url,
@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity() {
         ) {
             override fun getParams(): MutableMap<String, String>? {
                 val params: MutableMap<String,String> = HashMap()
-                params["email"] = binding.txtEmailLogin.text.toString()
+                params["username"] = binding.txtUsernameLogin.text.toString()
                 params["password"] = binding.editTextTextPassword.text.toString()
                 return params
             }

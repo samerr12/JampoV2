@@ -28,7 +28,7 @@ class ActUser : AppCompatActivity() {
         binding.recyclerViewDestinos.layoutManager = LinearLayoutManager(this)
 
         val queue = Volley.newRequestQueue(this)
-        var url = "https://esan-tesp-ds-paw.web.ua.pt/tesp-ds-g36/api/obter_info_jogos.php"
+        var url = "https://esan-tesp-ds-paw.web.ua.pt/tesp-ds-g36/api/user/list.php"
 
         val request = StringRequest(Request.Method.GET, url,
             { response ->
